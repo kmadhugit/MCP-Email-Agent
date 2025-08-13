@@ -39,16 +39,18 @@ See [`requirements.txt`](requirements.txt) for all dependencies:
    ```
 
 4. **Configure environment variables:**
-   - Create a `.env` file in the project root and add your secrets (API keys, etc).
+   - Create a `.env` file in the project root and add your secrets mainly OPENAI_API_KEY
 
 ## Usage
 
-Run the Flask server:
+Run the MCP Server server:
 ```sh
-python app.py
+python mcp_server.py
 ```
-*(Replace `app.py` with your main Python file if different.)*
-
+Run the AI Agent:
+```sh
+python agent.py
+```
 ## Development
 
 - All Python cache files, logs, virtual environments, and VS Code settings are ignored via `.gitignore`.
