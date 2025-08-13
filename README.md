@@ -1,11 +1,14 @@
 # MCP Email Agent
 
-This project is an email agent built with Python, designed to interact with the MCP API and OpenAI services. It uses Flask for web server functionality and manages environment variables securely with `python-dotenv`.
+This project is an AI email agent built with Python, designed to interact with the MCP API and OpenAI services. It reads the email and acts on the email autonomously like calling creating alert for package delivery, scheduling meeting etc.. It helps to understand how to implement a basic AI agent using OpenAI, how to use tool calling features of OpenAI and sample implementation of MCP servers. 
 
 ## Features
 
-- Integrates with MCP API (`mcp`)
+
 - Uses OpenAI API for AI-powered features
+- Implements with MCP API (`mcp`)
+- OpenAI tool calling functionality
+- Basic flow of an AI Agent.
 
 ## Requirements
 
